@@ -6,6 +6,7 @@ import "./App.css";
 function App() {
   const [videos, setVideos] = useState([]);
 
+  // Import the videos from the Database
   useEffect(() => {
     db.collection("videos").onSnapshot((snapshot) =>
       setVideos(snapshot.docs.map((doc) => doc.data()))
@@ -13,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    // BEM
+    // The main component which maps each of the videos present
     <div className="app">
       <div className="app__videos">
         {videos.map(

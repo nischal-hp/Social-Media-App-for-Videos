@@ -3,6 +3,7 @@ import "./VideoFooter.css";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import Ticker from "react-ticker";
 
+// Footer Function which contains the scrolling Song Name, Owner name of the video and also the corresponding caption.
 function VideoFooter({ channel, description, song }) {
   return (
     <div className="videoFooter">

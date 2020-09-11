@@ -5,6 +5,7 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import MessageIcon from "@material-ui/icons/Message";
 import ShareIcon from "@material-ui/icons/Share";
 
+// The Sidebar which contains the number of likes, share icon to get a shareable link for the video and also the comment icon.
 function VideoSidebar({ likes, shares, messages }) {
   const [liked, setLiked] = useState(false);
 
