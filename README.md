@@ -15,7 +15,7 @@
 * Display the music name used in the video
 
 ## The UI of this project will look something like below :
-![UI of Tiktok App](./Tiktok_UI.JPG)
+![UI of App](./screenshot.JPG)
 
 ## Instructions to Run the App
 Clone the Repo and run "npm start" command
